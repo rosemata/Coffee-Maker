@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox" fx:controller = "MyController"
+			fx:id = "root">
+	
+	<top>
+		<Label fx:id = "welcome" text = "Welcome to my Coffee Shop"/>
+	</top>
+	
+	<bottom>
+		<Label fx:id = "nothing" text = " "/>
+	</bottom>
+			
+	<center>
+			<VBox>
+			
+			
+			
+				<Label fx:id = "x" text = "  "/>
+				<Label fx:id = "x1" text = "  "/>
+				<Label fx:id = "flag_label" text = " Click New Oder to begin"/>
+				<Button fx:id = "b1" text = "New Order" onAction="#newOrder"/>
+				<Label fx:id = "y" text = "  "/>
+				<Label fx:id = "y1" text = "  "/>
+				<Label fx:id = "y3" text = "  "/>
+				
+				<Button fx:id = "b1" text = "+ $3.99	Regular Coffee" onAction="#handleButton1"/>
+				<Button fx:id = "b2" text = "+ $0.50	Add Sugar" onAction="#handleButton2"/>
+				<Button fx:id = "b3" text = "+ $0.50	Add Cream" onAction="#handleButton3"/>
+				<Button fx:id = "b4" text = "+ $1.20	Add Shot" onAction="#handleButton4"/>
+				<Button fx:id = "b5" text = "+ $0.50	Add Vanilla" onAction="#handleButton5"/>
+				<Button fx:id = "b6" text = "+ $0.50	Add Caramel" onAction="#handleButton6"/>
+				
+				<Label fx:id = "a" text = "  "/>
+				<Label fx:id = "a1" text = "  "/>
+				<Label fx:id = "a2" text = "  "/>
+				
+				<Label fx:id = "l2" text = " "/>
+				<Label fx:id = "l1" text = "Current Total: "/>
+				<Button fx:id = "b0" text = "+ Submit order" onAction="#handleButton0"/>
+				<Button fx:id = "d1" text = "+ Delete order" onAction="#delOrder"/>
+				
+		
+			</VBox>
+	</center>
+	
+	<left>
+			<Label fx:id = "flag_label" text = "  "/>
+			<ListView fx:id="listView" />
+	</left>
+	
+	<right>
+			<ListView fx:id="listView2" />
+	</right>
+	
+    
+</BorderPane>
+

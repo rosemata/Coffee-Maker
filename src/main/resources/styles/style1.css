@@ -1,0 +1,25 @@
+.root {
+	-fx-background-image: url("a.jpeg");
+	-fx-font-family: SansSerif;
+	-fx-font-size: 14px;
+	-fx-background-position: center center;
+	-fx-background-size: 1000 1000;
+}
+
+#welcome {
+	-fx-font-size: 72px;
+	-fx-label-position: center center;
+}
+
+#nothing {
+	-fx-font-size: 72px;
+	-fx-label-position: center center;
+}
+
+
+
+
+
+
+
+
